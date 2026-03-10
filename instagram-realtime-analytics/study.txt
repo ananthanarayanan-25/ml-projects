@@ -1,0 +1,15 @@
+cd kafka-docker
+docker --version check is running
+docker-compose.yml   --enter the code,,
+docker compose up -d
+docker ps
+
+to get
+CONTAINER ID   IMAGE                             COMMAND                  CREATED          STATUS          PORTS                                         NAMES
+94237e8bc5ff   provectuslabs/kafka-ui:latest     "/bin/sh -c 'java --…"   19 seconds ago   Up 18 seconds   0.0.0.0:8080->8080/tcp, [::]:8080->8080/tcp   kafka-ui
+cf845321dae5   confluentinc/cp-kafka:7.5.0       "/etc/confluent/dock…"   20 seconds ago   Up 18 seconds   0.0.0.0:9092->9092/tcp, [::]:9092->9092/tcp   kafka
+6256a3eb55bd   confluentinc/cp-zookeeper:7.5.0   "/etc/confluent/dock…"   20 seconds ago   Up 19 seconds   0.0.0.0:2181->2181/tcp, [::]:2181->2181/tcp   zookeeper
+
+if not 
+docker compose down
+the try again change code,version etc
