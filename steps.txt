@@ -1,0 +1,42 @@
+Imported pygame
+→ Needed a game framework to create window, input, and loop.
+
+Created a window + while True loop
+→ Keeps the game running until user quits.
+
+Handled quit event
+→ Allows clean exit when window is closed.
+
+Added a clock
+→ Controls frame rate so movement is consistent.
+
+Created snake using x, y
+→ Represents snake head position.
+
+Added movement (up, down, left, right)
+→ Basic control of snake direction.
+
+Added wall condition (game over)
+→ Ends game if snake goes outside boundary.
+
+Added food spawning at random locations
+→ Gives a goal for the snake.
+
+Food disappears when snake reaches it
+→ Simulates eating and reward.
+
+Snake and food not overlapping (problem)
+→ Exact position check failed due to movement and alignment issues.
+
+Used colliderect instead of x == food_x
+→ Detects collision even with partial overlap.
+
+Upgraded movement from key-press to continuous
+→ Earlier: press key repeatedly
+→ Now: direction (dx, dy) keeps snake moving automatically.
+
+Realized rectangle collision is not good for RL
+→ Overlap-based collision creates ambiguous states.
+
+Changed food coordinates to grid-aligned values
+→ Makes collision deterministic and suitable for RL.
