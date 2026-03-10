@@ -1,6 +1,6 @@
 # Snake Game with Reinforcement Learning
 
-[Demo Video](./Screen%20Recording.mp4)
+[Demo Video](./Snake-game.gif)
 
 > **Note**: To view the video, clone the repository or [upload it to GitHub Issues](https://github.com/ananthanarayanan-25/ml-projects/issues/new) to get an embeddable link.
 
