@@ -1,6 +1,8 @@
 # Snake Game with Reinforcement Learning
 
-https://github.com/ananthanarayanan-25/ml-projects/assets/Screen%20Recording.mp4
+[Demo Video](./Screen%20Recording.mp4)
+
+> **Note**: To view the video, clone the repository or [upload it to GitHub Issues](https://github.com/ananthanarayanan-25/ml-projects/issues/new) to get an embeddable link.
 
 ## Overview
 AI learns to play Snake using Q-Learning reinforcement learning algorithm.
